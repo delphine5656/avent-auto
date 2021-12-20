@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 2em;
+    color: rgb(43, 116, 67);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    margin-bottom: 3px;
+    font-size: 0.9em;
+}
+
+h3{
+    font-family: 'Black Ops One', cursive;
+    font-weight: 200;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: dense;
+    align-content: center;
+    
+}
+
+.card, .derriere {
+    width: 300px;
+    height: 200px; 
+    /*indique si face cachée ou non */
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 0.6s linear;
+ 
+ }
+
+
+ .card {
+    transform: perspective(600px) rotateY(0deg);
+    cursor: pointer;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.derriere {
+    background-color: rgb(43, 116, 67);;
+    transform: perspective(600px) rotateY(180deg);
+    height: 200px;
+    width: 300px;
+}
+
+.contenu {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: justify;
+
+}
+
+li{
+    list-style: none;
+    padding-bottom: 2px;
+}
+
+ /*.cardContainer:hover .card {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.cardContainer:hover .derriere {
+    transform: perspective(600px) rotateY(0deg);
+} */
+
+ .rotateDevant{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.rotateDerriere{
+    transform: perspective(600px) rotateY(0deg);
+} 
+h2 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgb(43, 116, 67);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* margin: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+   
+}
+
+.portrait {
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.paysage{
+    align-self: stretch;
+    justify-self: stretch;
+    height: 200px;
+    width: 200px;
+}
+
+.card1{
+    background-image: url('images/1.jpg');
+   
+}
+
+
+.card2{
+    background-image: url('images/2.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+    background-position: bottom;
+    
+}
+
+.card3{
+    background-image: url('images/3.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card4{
+    background-image: url('images/4.png');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card5{
+    background-image: url('images/5.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+ 
+}
+
+.card6{
+    background-image: url('images/6.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+/*----------------------*/
+
+.card7{
+    background-image: url('images/7.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
+.card8{
+    background-image: url('images/8.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card9{
+    background-image: url('images/9.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card10{
+    background-image: url('images/10.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card11{
+    background-image: url('images/11.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card12{
+    background-image: url('images/12.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+/*--------------------------------*/
+
+.card13{
+    background-image: url('images/13.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
+.card14{
+    background-image: url('images/14.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card15{
+    background-image: url('images/15.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card16{
+    background-image: url('images/16.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card17{
+    background-image: url('images/17.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card18{
+    background-image: url('images/18.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+/*--------------------------------*/
+
+.card19{
+    background-image: url('images/19.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
+.card20{
+    background-image: url('images/20.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card21{
+    background-image: url('images/21.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card22{
+    background-image: url('images/22.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card23{
+    background-image: url('images/23.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card24{
+    background-image: url('images/24.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+/*--------------------------------*/
+.card25{
+    background-image: url('images/25.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
+.card26{
+    background-image: url('images/26.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card27{
+    background-image: url('images/27.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card28{
+    background-image: url('images/28.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.card29{
+    background-image: url('images/29.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+   
+}
+
+.card30{
+    background-image: url('images/30.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+/*--------------------------------*/
+
+.card31{
+    background-image: url('images/31.jpg');
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------responsive----*/
+@media (min-width : 480px){
+   .container{
+       grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+@media (min-width : 576px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+
+ @media (min-width : 768px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+ }
+
+ @media (min-width : 992px){
+    .container{
+        grid-template-columns: repeat(6, 1fr);
+    }
+ }
