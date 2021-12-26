@@ -41,7 +41,7 @@ h3{
 
 .card, .derriere {
     width: 300px;
-    height: 200px; 
+    height: 400px; 
     /*indique si face cachée ou non */
     backface-visibility: hidden;
     position: absolute;
@@ -54,15 +54,14 @@ h3{
     transform: perspective(600px) rotateY(0deg);
     cursor: pointer;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .derriere {
     background-color: rgb(43, 116, 67);;
     transform: perspective(600px) rotateY(180deg);
-    height: 200px;
-    width: 300px;
+
 }
 
 .contenu {
@@ -108,46 +107,70 @@ h2 {
    
 }
 
-.portrait {
-    align-self: stretch;
-    justify-self: stretch;
-}
+    .portrait {
+        height: 400px;
+        width: 300px;
+        align-self: stretch;
+        justify-self: stretch;
+        grid-row: auto / span 2;
+    }
+    
 
 .paysage{
     align-self: stretch;
     justify-self: stretch;
     height: 200px;
-    width: 200px;
+    width: 300px;
 }
 
 .card1{
     background-image: url('images/1.jpg');
-   
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .card2{
     background-image: url('images/2.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
-    background-position: bottom;
     
 }
 
 .card3{
     background-image: url('images/3.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card4{
     background-image: url('images/4.png');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card5{
     background-image: url('images/5.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
  
@@ -155,21 +178,35 @@ h2 {
 
 .card6{
     background-image: url('images/6.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 /*----------------------*/
 
 .card7{
     background-image: url('images/7.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 
 .card8{
     background-image: url('images/8.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -177,18 +214,32 @@ h2 {
 
 .card9{
     background-image: url('images/9.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card10{
     background-image: url('images/10.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card11{
     background-image: url('images/11.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -196,21 +247,35 @@ h2 {
 
 .card12{
     background-image: url('images/12.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 /*--------------------------------*/
 
 .card13{
     background-image: url('images/13.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 
 .card14{
     background-image: url('images/14.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -218,18 +283,32 @@ h2 {
 
 .card15{
     background-image: url('images/15.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card16{
     background-image: url('images/16.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card17{
     background-image: url('images/17.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -237,21 +316,35 @@ h2 {
 
 .card18{
     background-image: url('images/18.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 /*--------------------------------*/
 
 .card19{
     background-image: url('images/19.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 
 .card20{
     background-image: url('images/20.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -259,18 +352,32 @@ h2 {
 
 .card21{
     background-image: url('images/21.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card22{
     background-image: url('images/22.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card23{
     background-image: url('images/23.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -278,20 +385,34 @@ h2 {
 
 .card24{
     background-image: url('images/24.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 /*--------------------------------*/
 .card25{
     background-image: url('images/25.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 
 .card26{
     background-image: url('images/26.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -299,18 +420,32 @@ h2 {
 
 .card27{
     background-image: url('images/27.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card28{
     background-image: url('images/28.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 .card29{
     background-image: url('images/29.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
    
@@ -318,16 +453,26 @@ h2 {
 
 .card30{
     background-image: url('images/30.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 /*--------------------------------*/
 
 .card31{
     background-image: url('images/31.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     align-self: stretch;
     justify-self: stretch;
+    grid-row: auto / span 2;
 }
 
 
